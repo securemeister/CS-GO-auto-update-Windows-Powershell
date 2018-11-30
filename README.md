@@ -3,4 +3,5 @@ This little project / tool provides an auto update function for CSGO (Counter-St
 
 What does this script do?
 
+```ruby
 @dsfas
