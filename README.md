@@ -19,16 +19,16 @@ First of all you need a working CSGO server. After that, you can implement this 
 ### Path to SteamCMD
 $SteamCMD = 'C:\SteamCMD\steamcmd.exe'
 
-Path to CSGO Update Script (also attached)
+### Path to CSGO Update Script (also attached)
 $SteamCMDArgumentList = '+runscript csgo_update.txt'
 
-Path to CSGO server (srcds)
+### Path to CSGO server (srcds)
 $CSGOServer = 'C:\CSGO\srcds.exe'
 
-ArgumentList for CSGO server -> IMPORTANT: '-condebug' needs to be activated, otherwise the script cannot detect updates.
+### ArgumentList for CSGO server -> IMPORTANT: '-condebug' needs to be activated, otherwise the script cannot detect updates.
 $CSGOServerArgumentList = '-condebug -game csgo -console -usercon +game_type 0 +game_mode 1 -tickrate 128 +map de_dust2'
 
-Path to the console log file (-condebug -> mentioned above)
+### Path to the console log file (-condebug -> mentioned above)
 $CSGOServerConsoleLogFile = 'C:\CSGO\csgo\console.log'
 
 
