@@ -16,7 +16,7 @@ When Valve is deploying a new update, your server is stopping with the message '
 
 First of all you need a working CSGO server. After that, you can implement this script. You need to adjust following settings:
 
-Path to SteamCMD
+### Path to SteamCMD
 $SteamCMD = 'C:\SteamCMD\steamcmd.exe'
 
 Path to CSGO Update Script (also attached)
