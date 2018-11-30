@@ -1,0 +1,5 @@
+login anonymous
+force_install_dir C:\_GAMESERVER\CSGO\
+app_update 740
+quit
+
